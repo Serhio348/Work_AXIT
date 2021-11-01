@@ -1,0 +1,77 @@
+.pricing-wrap {
+    max-width: 1508px;
+    display: flex;
+    margin: 79px auto;
+   
+}
+.pricing-list-1 {
+    width: 370px;
+    margin: 0px 30px 50px 168px;
+         
+}
+.pricing-list-2 {
+    width: 370px;
+    margin: 0px 30px 50px 0px;
+         
+}
+.pricing-list-3 {
+    width: 370px;
+    margin: 0px 170px 50px 0px;
+         
+}
+
+.pricing-item-1 {
+    font-size: 24px;
+    width: 370px;
+    background-color: #333333;
+    margin-top: 2px;
+    text-align: center;
+    }
+    .title-1{
+        color:#FFFFFF;
+        line-height: 60px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+    }
+    .pricing-item-2 {
+    font-size: 24px;
+    width: 370px;
+    background-color: #333333;
+    margin-top: 2px;
+    text-align: center;
+        }
+        .title-2{
+        color:#FFFFFF;
+        line-height: 100px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 36px;
+        }
+        .pricing-item-3 {
+    font-size: 24px;
+    width: 370px;
+    background-color: #333333;
+    margin-top: 2px;
+    text-align: center;
+    }
+    .title-3{
+        color:#FFFFFF80;
+        ;
+        line-height: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+            }
+            .pricing-item-4 {
+    width: 370px;
+    background-color: #FFFFFF;
+    margin-top: 2px;
+    text-align: center;
+            }
+            .title-4{
+        color: #86878B;
+        line-height: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+            }
+            
+
+    

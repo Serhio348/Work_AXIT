@@ -1,0 +1,35 @@
+@import url('../css/widght.css');
+@import url('../css/pricing.css');
+
+* {
+    /* color: coral;
+    font-size: 24px; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .section{
+    background-color: #F5F5F5;
+    width: 1508px;
+    padding: 0px;
+  }
+  .title{
+    box-sizing: border-box;
+    color:#000000;
+    font-size: 36px;
+    margin: 25px auto 25px;
+    text-align: center;
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+.description{
+    margin:40px auto;
+    text-align: center;
+    color: #86878B;
+    font-size: 18px;
+    font-family: 'Raleway';
+    height: 21px;
+}

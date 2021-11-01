@@ -2,12 +2,10 @@
 .awesome-wrapper{
     max-width:1170px;;
     border: 0px solid #000; 
-    margin: 110px 45px 0;
+    margin: 110px 45px 0px;
     display: flex;
-    padding: 0;
-    
-     
-    
+    padding: 0px;
+       
    
 }
 .awesome-item-img{
