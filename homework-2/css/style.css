@@ -1,6 +1,7 @@
 @import url('../css/widght.css');
 @import url('../css/awesome.css');
 
+
 * {
     /* color: coral;
     font-size: 24px; */
@@ -8,14 +9,19 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    box-sizing: border-box;
     text-decoration: none;
   }
-  .section{
-padding: 50px 0;
-width: 1170px;
+  .section-awesome{
+padding: 54px 0 58px;
+display: block;
+
   }
-  .title{
+  .container-awesome{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .title-awesome{
     box-sizing: border-box;
     color:#000000;
     font-size: 36px;
@@ -23,11 +29,12 @@ width: 1170px;
     text-align: center;
     font-family: 'Raleway';
 }
-.description{
-    margin:40px auto;
+.description-awesome{
+   margin-bottom:68px;
     text-align: center;
     color: #86878B;
     font-size: 18px;
+    font-weight: 400;
     font-family: 'Raleway';
-    height: 21px;
+    line-height: 21px;
 }

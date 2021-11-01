@@ -1,7 +1,7 @@
 .pricing-wrap {
-    max-width: 1508px;
     display: flex;
-    margin: 79px auto;
+    flex-wrap:wrap;
+    justify-content: space-between;
    
 }
 .pricing-list-1 {

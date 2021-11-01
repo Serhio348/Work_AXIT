@@ -11,12 +11,12 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-  .section{
+  .section-pricing{
     background-color: #F5F5F5;
     width: 1508px;
-    padding: 0px;
+    padding: 135px 0 50px;
   }
-  .title{
+  .title-pricing{
     box-sizing: border-box;
     color:#000000;
     font-size: 36px;
@@ -25,7 +25,7 @@
     font-family: 'Raleway';
     text-transform:uppercase;
 }
-.description{
+.description-pricing{
     margin:40px auto;
     text-align: center;
     color: #86878B;
