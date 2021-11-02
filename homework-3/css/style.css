@@ -14,19 +14,30 @@
   .section-pricing{
     background-color: #F5F5F5;
     width: 1508px;
-    padding: 135px 0 50px;
+    padding: 80px 0 50px;
   }
   .title-pricing{
     box-sizing: border-box;
     color:#000000;
     font-size: 36px;
-    margin: 25px auto 25px;
+    margin: 15px auto 25px;
     text-align: center;
     font-family: 'Raleway';
     text-transform:uppercase;
+
+}
+.title-pricing::after{
+content: "";
+	position: absolute;
+	top: 200px;
+    width: 170px;
+	left: 671px;
+	right: 499px;
+    height: 1px;
+	background-color: #EC7979;
 }
 .description-pricing{
-    margin:40px auto;
+    margin:110px auto;
     text-align: center;
     color: #86878B;
     font-size: 18px;

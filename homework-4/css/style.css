@@ -1,0 +1,65 @@
+@import url('../css/item.css');
+@import url('../css/stylish.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .section-costumers{
+    background-color: #ffffff;
+    max-width: 1171px;
+    padding: 50px 15px 50px 15px;
+    margin: auto;
+    
+  }
+  .title-costumers{
+    box-sizing: border-box;
+    color:#000000;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    font-family: 'Raleway';
+    text-transform:uppercase;
+    position: relative;
+  }
+    .title-costumers::after{
+	content: "";
+	position: absolute;
+	top: 100px;
+    width: 170px;
+	left: 500px;
+	right: 400px;
+    height: 1px;
+	background-color: #EC7979;
+	}
+
+
+.description-costumers{
+    margin:100px auto;
+    text-align: center;
+    color: #86878B;
+    font-size: 18px;
+    font-family: 'Raleway';
+    height: 21px;
+}
+/* .line-costumers{
+    border-top: 1px solid #EC7979;
+    width: 170px;
+    margin: 40px auto;
+    height: 0px;
+} */
+.container-costumers{
+    max-width: 1171px;
+    padding: 0;
+}
+.costumers-wrap{
+    max-width: 1171;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+

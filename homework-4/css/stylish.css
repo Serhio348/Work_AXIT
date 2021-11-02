@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .section-design{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1510px;
+    height: 442px;
+    padding: 50px 15px 50px 15px;
+    margin: auto;
+    background-image: url(../img/pictores/image.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+    
+
+  }
+  .section-design::after{
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      display: block;
+      background-color:rgba(83, 80, 80, 0.3);
+  }
+  .title-design{
+    box-sizing: border-box;
+    color:#ffffff;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    font-family: 'Raleway';
+    text-transform:uppercase;
+    position: relative;
+  }
+  .title-design::after{
+	content: "";
+	position: absolute;
+	top: 100px;
+    width: 170px;
+	left: 669px;
+	right: 671px;
+    height: 1px;
+	background-color: #FFFFFF;
+	}
+    .container-design{
+    max-width: 1510px;
+    padding: 0;
+    }
+    .description-design{
+    width: 1169px;
+    margin:100px auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Raleway';
+    height: 21px;
+    }
+    .button-design{
+        width: 370px;
+        height: 58px;
+        border: 1px solid #FFFFFF;
+        font-size: 18px;color:#ffffff;
+        font-family: Open Sans;
+        line-height: 25px;
+        margin: auto;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        line-height: 58px;
+        
+    }
