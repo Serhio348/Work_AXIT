@@ -4,9 +4,8 @@
     width: 170px;
     margin: 40px auto;
     height: 0px; */
-}
+
 .container-pricing{
-    max-width: 1508;
+    max-width: 1508px;
     margin: auto;
-    padding: 0;
 }

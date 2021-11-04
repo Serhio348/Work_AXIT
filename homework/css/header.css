@@ -1,0 +1,76 @@
+
+.header {
+display: flex;
+justify-content:space-between;
+background-color: rgba(0, 0, 0, 1);
+padding: 35px 100px 35px 100px;
+align-items: center;
+margin: auto;
+position: relative;
+flex-wrap:wrap;
+}
+.header-social {
+width: 1509px;
+height: 100px;
+display: flex;
+justify-content:space-between;
+background-color: rgba(0, 0, 0, 1);
+padding: 25px 100px 25px 100px;
+align-items: center;
+
+}
+.header-logo{
+    color: #ffff;
+    font-size: 61px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    position: relative;
+   
+}
+.header-logo::after{
+content: "IT";
+color:#EC7979;
+font-size: 61px;
+}
+.link-header{
+font-family:"Open Sans";
+color: white;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+margin-left: 110px;
+text-transform:capitalize;
+}
+.header-nav {
+   
+}
+.nav-list{
+display: flex;
+}
+.link-header::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 0%;
+content: '.';
+color: transparent;
+background: rgb(255, 255, 255);
+height: 1px;
+display: inline;
+transition: all 0.3s;
+font-size: 14px;
+}
+.link-header:hover::after{
+width: 100%;
+}
+.link-header:hover{
+position: relative;
+color: #EC7979;
+
+
+  }
+      

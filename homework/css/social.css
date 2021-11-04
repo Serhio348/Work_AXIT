@@ -1,0 +1,235 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+.section-social {
+    background-color: rgba(248, 239, 239, 1);
+    padding: 0 15px 18px 15px;
+}
+.container-social {
+    width: 1510px;
+    }
+.wrapper-social {
+    display:flex;
+    width: 100%;
+}
+.awesome-social {
+    width:800px;
+}
+.title-social {
+    display: block;
+    width: 470px;
+    color: rgba(51, 51, 51, 1);
+    font-size: 24px;
+    text-transform:capitalize;
+    font-family: "Open Sans";
+    position: relative;
+    margin-top: 25px;
+    margin-left: 170px;
+    }
+.discription-social {
+    display: block;
+    width: 470px;
+    font-family: "Raleway";
+    color: rgba(134, 135, 139, 1);
+    margin-top: 18px;
+    margin-left: 170px;
+}
+.awesome-social-1{
+    display:block;
+    min-width: 1000px;
+    justify-content: space-between;
+    margin: 46px 0 0 100px;
+       
+}
+
+#social{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.fa-facebook {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+    margin-left: 45px;
+}
+.fa-facebook:hover{
+    color:  #3b5998;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+   
+
+.fa-twitter-square {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+}
+.fa-twitter-square:hover{
+    color:  #00acee;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.fa-linkedin {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+}
+.fa-linkedin:hover{
+    color:  #0e76a8;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.fa-pinterest-square {
+    width: 55px;
+    display: block;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+}
+.fa-pinterest-square:hover{
+    color:  #c8232c ;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.fa-instagram-square {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+}
+.fa-instagram-square:hover{
+    color:  #3f729b  ;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.fa-github-square {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+    
+}
+.fa-github-square:hover{
+    color:  #131314  ;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.fa-stumbleupon-circle {
+    display: block;
+    width: 55px;
+    color: rgba(134, 135, 139, 1);
+    font-size: 60px;
+}
+.fa-stumbleupon-circle:hover{
+    color:  #e9380c  ;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite; 
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

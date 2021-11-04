@@ -5,29 +5,42 @@
 * {
     /* color: coral;
     font-size: 24px; */
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
   }
   .section-awesome{
-padding: 54px 0 58px;
-display: block;
+    padding: 60px 116px;
+    display: block;
 
   }
   .container-awesome{
     max-width: 1170px;
     margin: auto;
     padding: 0 15px;
+    flex-wrap:wrap;
+    justify-content: space-between;
   }
   .title-awesome{
-    box-sizing: border-box;
+    
     color:#000000;
     font-size: 36px;
-    margin: 25px auto 25px;
+    margin: auto;
     text-align: center;
     font-family: 'Raleway';
+    line-height: 42px;
+  }
+    .title-awesome::after{
+    content: "";
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    width: 170px;
+    height: 1px;
+    background-color: #EC7979;
+    
 }
 .description-awesome{
    margin-bottom:68px;
@@ -37,4 +50,5 @@ display: block;
     font-weight: 400;
     font-family: 'Raleway';
     line-height: 21px;
+    margin-top: 100px;
 }

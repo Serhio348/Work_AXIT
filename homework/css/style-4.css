@@ -1,6 +1,3 @@
-@import url('../css/item.css');
-@import url('../css/stylish.css');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +8,6 @@
   }
   .section-costumers{
     background-color: #ffffff;
-    max-width: 1171px;
     padding: 50px 15px 50px 15px;
     margin: auto;
     
@@ -24,17 +20,17 @@
     text-align: center;
     font-family: 'Raleway';
     text-transform:uppercase;
-    position: relative;
+    
   }
     .title-costumers::after{
 	content: "";
-	position: absolute;
-	top: 100px;
-    width: 170px;
-	left: 500px;
-	right: 400px;
-    height: 1px;
+  display: block;
+	position: relative;
+	top: 60px;
+  width: 170px;
+	height: 1px;
 	background-color: #EC7979;
+  margin: auto;
 	}
 
 
@@ -46,20 +42,17 @@
     font-family: 'Raleway';
     height: 21px;
 }
-/* .line-costumers{
-    border-top: 1px solid #EC7979;
-    width: 170px;
-    margin: 40px auto;
-    height: 0px;
-} */
+
 .container-costumers{
     max-width: 1171px;
     padding: 0;
+    margin: auto;
 }
 .costumers-wrap{
     max-width: 1171;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    margin: auto;
 }
 
