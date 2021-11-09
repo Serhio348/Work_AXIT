@@ -1,60 +1,68 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
   }
-  .section-header {
-    background-color: rgba(0, 0, 0, 0.5);
+  .section-axit {
+    padding: 15px 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/pictores/image-6.png);
     position: relative;
-    padding: 15 50px 15px;
+        
   }
-  .section-header::after{
+  .section-axit::after{
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: #0000008c;
     left: 0;
     top: 0;
   }
-  .container-header{
-    width: 1510px;
+  .container-axit{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
     position: relative;
-    padding: 0;
-    margin:auto;
     z-index: 1;
-  } 
-  .title-header{
+  }
+  .wrap-axit{
+    display: flex;
+    margin: 0 -15px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 183px 0 185px;
+  }
+
+  .awesome-axit{
+    display: flex;
+    max-width: 670px;
+    flex-direction: column;
+
+  }
+  .title-axit{
     display: block;
     width: 102px;
-    height: 55px;
     color: #ffff;
-    font-size: 90px;
+    font-size: 55px;
     text-transform: uppercase;
     font-family: "Raleway";
     position: relative;
-    margin-top: 206px;
-    
+       
   }
-  .title-header::after{
+  .title-axit::after{
     content: "IT";
     color:#EC7979;
-    font-size: 90px;
+    font-size: 55px;
     }
-  .wrapper-header{
-      display: flex;
-  }
-  .title-header{
-      display: block;
-  }
-  .subtitle-header{
+  
+ 
+  .subtitle-axit{
       width: 670px;
       color: rgba(255, 255, 255, 1);
       font-family: 'Raleway';
@@ -65,39 +73,40 @@
       align-items: center;
       text-transform: uppercase;
       margin-top: 73px;
+      
    }
-   .subtitle-header::after{
+   .subtitle-axit::after{
 	 content: "";
-     display: block;
+   display: block;
 	 position: relative;
-	 top: 60px;
-     width: 170px;
+	 width: 170px;
 	 height: 1px;
 	 background-color: #fff;
-     margin: auto;
-     right: 245px;
+   margin: 55px 0 42px;
+     
      
 	}
     
-    .discription-header{
+    .discription-axit{
     display: block;
     width: 270px;
-    margin:100px 0;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-family: 'Raleway';
-    height: 21px;
-    } 
-    .awesome-header-banner{
+    
+    
+  } 
+    .awesome-axit-banner{
     display: block;
     width: 470px;
-    height: 450px;
+    height: 430px;
+    border-radius: 10px;
     background-color: #FFFFFF;
-    padding: 40px 00px 0 0px;
-    margin: 283px 60px 293px 60px;
-    
-    
+    padding: 40px 0 0 0;
+    margin: 0 15px;
+    overflow: hidden;
+        
      }
      .title-banner{
     font-family: Open Sans;
@@ -110,67 +119,91 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 40px;
+    text-transform: capitalize;
     }
     .color-text{
       color: #EC7979;
     }
-    input{
+   
+    .axit-fields{
     display: block;
     width: 370px;
     height: 68px;
-    border-bottom: 1px solid rgba(189, 189, 189, 1);
     outline: none;
     border-top: none;
     border-left: none;
     border-right: none;
     font-size: 100%;
     margin: 0 0 0 50px;
+    } 
+    .axit-name-user{
+      width: 100%;
+      height: 19px;
+      resize: none;
+      border: none;
+      border-bottom: 1px solid #bdbdbd;
+      outline: none;
+      font-size: 14px;
     }
-  .input-banner{
+    .axit-name{
+    display: block;
+    font-size: 14px;
+    color: #bdbdbd;
+    line-height: 19px;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+    }
+
+  .awesome-button{
     width: 470px;
-    height: 60px;
+    height: 68px;
     background-color: #EC7979;
-    font-size: 15px;color:#ffffff;
+    font-size: 15px;
+    color:#ffffff;
     font-family: Open Sans;
     line-height: 20px;
     text-align: center;
     display: block;
     text-decoration: none;
-    padding: 20px;
     text-transform: capitalize;
-              
+    border: 0;
+    margin-top: 50px;
+            
   }
-  .input-banner:hover{
+  .awesome-button:hover{
     display: block;
     border:2px solid rgba(189, 189, 189, 1);;
     color:rgba(189, 189, 189, 1);
     transition: 0.2s;
+    font-size: 25px;
+
   }
   #password{
       margin-bottom: 75px;
       name: login;
   }
 
-  .link-wrapper{
-    width: 370px;
+  .link-wrap{
+    width: 270px;
     height: 58px;
     border: 1px solid #FFFFFF;
     font-size: 18px;color:#ffffff;
     font-family: Open Sans;
-    line-height: 25px;
-    margin-bottom: 400px;
     text-align: center;
     display: block;
     text-decoration: none;
     color: #ffffff;
-    line-height: 58px;
+    line-height: 25px;
     position: relative; 
-    margin-bottom: 100px; 
+    padding: 11px 0;
+    margin-top: 42px;
+   
+    
 }
-.link-wrapper:hover{
+.link-wrap:hover{
   display: block;
-  width: 370px;
   height: 58px;
+  width: 270px;
   background-color: #fff;
   color:#EC7979;
   transition: 0.2s;

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+.footer {
+background: black;
+padding: 30px 0 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.footer-wrap {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 500px;
+margin: 0 -15px;
+}
+
+.footer-logo {
+width: 100%;
+}
+
+.footer-logo-item {
+list-style: none;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 0 -15px;
+padding: 0 15px;
+}
+
+
+.footer-author {
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+margin: 32px 0 0 15px;
+}
+#facebook{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);
+}
+#twitter{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);
+}
+#linkedin{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);
+}
+#pinterest{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);
+}
+#instagram{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);
+}
+#github{
+font-size: 42px;
+color: rgba(204, 204, 204, 1); 
+}
+#stumbleupon{
+font-size: 42px;
+color: rgba(204, 204, 204, 1);  
+}
+
