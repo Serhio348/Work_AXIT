@@ -5,16 +5,17 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-  .section-axit {
-    padding: 15px 0;
+  .axit {
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/pictores/image-6.png);
     position: relative;
+    padding: 180px 0;
         
   }
-  .section-axit::after{
+  .axit::after{
     content: "";
     width: 100%;
     height: 100%;
@@ -33,16 +34,15 @@
   .wrap-axit{
     display: flex;
     margin: 0 -15px;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
-    padding: 183px 0 185px;
+   
   }
 
   .awesome-axit{
-    display: flex;
-    max-width: 670px;
-    flex-direction: column;
+    max-width: 640px;
+    margin: 0 15px;
 
   }
   .title-axit{
@@ -53,6 +53,7 @@
     text-transform: uppercase;
     font-family: "Raleway";
     position: relative;
+    
        
   }
   .title-axit::after{
@@ -97,18 +98,15 @@
     
     
   } 
-    .awesome-axit-banner{
-    display: block;
+    .form-page{
     width: 470px;
-    height: 430px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    padding: 40px 0 0 0;
     margin: 0 15px;
     overflow: hidden;
         
      }
-     .title-banner{
+     .form-title{
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -118,32 +116,26 @@
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 40px;
-    text-transform: capitalize;
+    margin-bottom: 44px;
+    
     }
     .color-text{
       color: #EC7979;
     }
    
-    .axit-fields{
-    display: block;
-    width: 370px;
-    height: 68px;
-    outline: none;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    font-size: 100%;
-    margin: 0 0 0 50px;
+    .form-content-axit{
+      padding: 15px 50px 59px;
     } 
+    .form-content-input{
+      margin-bottom: 30px;
+    }
     .axit-name-user{
       width: 100%;
-      height: 19px;
-      resize: none;
       border: none;
       border-bottom: 1px solid #bdbdbd;
       outline: none;
       font-size: 14px;
+      padding: 3px 3px;
     }
     .axit-name{
     display: block;
@@ -155,8 +147,7 @@
     }
 
   .awesome-button{
-    width: 470px;
-    height: 68px;
+    width: 100%;
     background-color: #EC7979;
     font-size: 15px;
     color:#ffffff;
@@ -167,15 +158,17 @@
     text-decoration: none;
     text-transform: capitalize;
     border: 0;
-    margin-top: 50px;
+    padding: 0.94em 0; 
+    cursor: pointer;
+      
             
   }
   .awesome-button:hover{
     display: block;
-    border:2px solid rgba(189, 189, 189, 1);;
+    border:1px solid rgba(189, 189, 189, 1);
     color:rgba(189, 189, 189, 1);
     transition: 0.2s;
-    font-size: 25px;
+    font-size: 15px;
 
   }
   #password{
@@ -185,7 +178,6 @@
 
   .link-wrap{
     width: 270px;
-    height: 58px;
     border: 1px solid #FFFFFF;
     font-size: 18px;color:#ffffff;
     font-family: Open Sans;
@@ -202,9 +194,9 @@
 }
 .link-wrap:hover{
   display: block;
-  height: 58px;
   width: 270px;
   background-color: #fff;
   color:#EC7979;
   transition: 0.2s;
+  padding: 11px 0;
 }
