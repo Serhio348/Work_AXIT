@@ -1,3 +1,4 @@
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
 * {
@@ -7,12 +8,45 @@
     box-sizing: border-box;
     text-decoration: none;
   }
-  .awesome{
+.awesome{
     background-color: rgb(255, 255, 255);
-    padding: 100px 0;
+    padding: 30px 0;
 
   }
-  .awesome-wrap{
+   .title-awesome{
+    color:#000000;
+    font-size: 2.25rem;
+    margin:70px auto 0;
+    text-align: center;
+    font-family: 'Raleway';
+    line-height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+
+  }
+    .title-awesome::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 170px;
+    height: 1px;
+    margin:65px auto 0;
+    background-color: #EC7979;
+    
+}
+.description-awesome{
+    text-align: center;
+    color: rgba(134, 135, 139, 1);
+    font-size: 1.13rem;
+    font-weight: 400;
+    font-family: 'Raleway';
+    line-height: 21px;
+    margin: 41px 0 60px 0;
+   
+}
+.awesome-wrap{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -22,78 +56,65 @@
 }
 .awesome-item-img{
     max-width: 350px;
-    margin: 0 15px 50px;
+    margin: 0 15px;
 }
+
 .awesome-item-icon{
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 5.75rem;
+    height: 5.75rem;
     border-radius: 50%; 
     overflow: hidden; 
+    border: 1px solid #EC7979;
     display: flex;
     align-items: center;
     transition: 0.3s;
     margin: auto;
+       
 }
 .awesome-item-icon:hover {
     transform: scale(1.2);
+    border: 3px solid #EC7979;
     box-shadow: 0px 0px 25px 1px #EC7979;
   }
-  .fa-edit{
-    font-size: 4.1rem;
+
+.fa-lightbulb{
+   font-size: 3.1rem;
+   margin: auto;
+   color: #EC7979;
+
+}
+
+.fa-keyboard{
+    font-size: 3.1rem;
     margin: auto;
-    color: #FF4343;
- 
+    color: #EC7979;
+   
  }
- 
- .fa-desktop{
-     font-size: 4.1rem;
-     margin: auto;
-     color: #FF4343;
-    
-  }
- 
- .fa-medapps{
-     font-size: 4.1rem;
-     margin: auto;
-     color: #FF4343;
-  }
-  .fa-shopping-cart{
-    font-size: 4.1rem;
+
+.fa-bolt{
+    font-size: 3.1rem;
     margin: auto;
-    color: #FF4343;
-  }
-  .fa-check-circle{
-    font-size: 4.1rem;
-    margin: auto;
-    color: #FF4343;
-    ;
-  }
-  .fa-star{
-    font-size: 4.1rem;
-    margin: auto;
-    color: #FF4343;   
-  }
-  .awesome-item-title{
+    color: #EC7979;
+ }
+.awesome-item-title{
     font-style:normal;
-    font-weight: 900;
-    margin: 20px 0;
+    margin-top: 39px;
+    margin-bottom: 58px;
     text-align: center;
-    line-height: 1.75rem;
+    line-height: 33px;
     font-size: 1.5rem;
-    font-family: "Raleway";
-    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
     
 }
 .awesome-title-text{
     
-    font-family:"Raleway";
+    font-family: Raleway;
     font-style: normal;
-    font-weight:400;
+    font-weight: normal;
     font-size: 1.1rem;
-    line-height: 1.3rem;
+    line-height: 21px;
     display: flex;
     align-items: center;
     text-align: center;
     
 }
-

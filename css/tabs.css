@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+  .tabs {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 0 10px;
+    display: flex;
+    
+    }
+
+    .wrap-tabs {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;   
+    }
+
+  
+   input[type="radio"] { display: none; }
+  
+   .tabs-title {
+    display: block;
+    background: rgb(253, 253, 253); 
+    padding: 5px 10px; 
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 0.88rem;
+    line-height: 19px;
+    font-weight: 400;
+    width: 12.5rem;
+    
+   }
+   
+   .tabs-content {
+    position: absolute; /* Абсолютное позиционирование */
+    border: 1px solid rgb(194, 193, 193); /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    left: 0; /* Размещаем у левого края */
+    width: 12.56rem; /* Ширина содержимого */
+    display: none; /* Прячем вкладку */
+    
+    
+   }
+   .tab :checked + .tabs-title {
+    position: relative; /* Относительное позиционирование */
+    background: #fff; /* Цвет фона */
+    top: 1px; /* Сдвигаем вниз */
+    z-index: 1; /* Отображаем поверх содержимого */
+    border: 1px solid rgb(194, 193, 193);
+    border-bottom: none;
+    
+    
+   }
+   .tab :checked ~ .tab-content {
+    display: block; /* Показываем активную вкладку */
+        
+   }
+
+   .tab-item{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: auto;   
+    border: 1px solid rgb(194, 193, 193);
+    
+        
+   }
+   .tab-content{
+    max-width: 667px;
+    padding: 42px 20px 20px 20px;
+    
+      
+}
+.tab-img{
+    width: 440px;
+    height:450px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+     
+  .tab-title{
+    color:#000000;
+    font-size: 1.88rem;
+    
+    font-family: 'Open Sans';
+    line-height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform:capitalize;
+    font-weight: 700;
+    margin-bottom: 72px;
+
+   }
+.tab-discription{
+    margin-top: 27px;
+    line-height: 21px;
+    font-size: 1.25rem;
+    font-family: 'Raleway';
+}
+.tab-buttom{
+    background-color: #EC7979;
+    width: 18rem;
+    border: 1px solid #FFFFFF;
+    font-size: 1.13rem;color:#ffffff;
+    font-family: Open Sans;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 25px;
+    position: relative; 
+    padding: 11px 0;
+    margin-top: 42px;
+}
+.tab-buttom:hover{
+    display: block;
+    width: 18rem;
+    background-color: #EC7979;
+    color:#383535;
+    transition: 0.2s;
+    padding: 11px 0;
+  }
+  
+ 
+  

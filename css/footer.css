@@ -7,80 +7,77 @@
   }
 
 .footer {
-    background-color: rgb(53, 60, 101);
-    padding: 70px 0 10px;
+background: black;
+padding: 30px 0 30px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
-.footer-awesome {
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin: auto;
-    padding-bottom: 50px;
+.footer-wrap {
+display: flex;
+align-items: center;
+max-width: 500px;
+margin: 0 -15px;
 }
-.footer-location {
-    max-width: 370px;
-    padding: 0 10px;
 
+.footer-logo {
+width: 100%;
 }
-.footer-title {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;  
-    margin-bottom: 29px;  
-}
-.footer-discription {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #FFFFFF;
-        
-}
-.footer-share {
-    max-width: 370px;
-  }
 
-.footer-links{
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    margin: auto;
+.footer-logo-item {
+list-style: none;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin: 0 -15px;
+padding: 0 15px;
 }
-.footer-activebox {
-    max-width: 370px;
 
-}
-.footer-copyright {
-    
-    background-color: rgb(44, 49, 84);
-    padding: 34px 0;
 
+.footer-author {
+font-family: Open Sans;
+font-size: 1.1rem;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+margin: 32px 0 0 15px;
 }
-.footer-copyright-discription{
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-    align-items: center;
-    text-align: center;
-    text-transform: capitalize;
-    color: #808080;    
+#facebook{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;
 }
-.type-text {
-    color: #FFFFFF;
+#twitter{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;
+}
+#linkedin{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;
+}
+#pinterest{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;
+}
+#instagram{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;
+}
+#github{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0; 
+}
+#stumbleupon{
+font-size: 2.6rem;
+color: rgba(204, 204, 204, 1);
+margin: 0 10px 0 0;  
+}
 
-}
