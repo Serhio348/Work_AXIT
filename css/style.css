@@ -1,15 +1,11 @@
-@import url('../css/item.css');
-@import url('../css/costumer.css');
-@import url('../css/awesome.css');
-@import url('../css/tabs.css');
-@import url('../css/pricing.css');
-@import url('../css/design.css');
-@import url('../css/header.css');
-@import url('../css/axit.css');
-@import url('../css/social.css');
-@import url('../css/contact.css');
-@import url('../css/footer.css');
 
+@import url('../css/header.css');
+@import url('../css/awesome.css');
+@import url('../css/portfolio.css');
+@import url('../css/background.css');
+@import url('../css/slider.css');
+@import url('../css/download.css');
+@import url('../css/footer.css');
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +17,68 @@
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
-   
   }
- 
+
+@media (max-width: 1200px) {
+ html {
+  font-size: 14px;
+    }
+    .container{
+      max-width: 970px;
+    }
+
+    .awesome-wrap{
+      justify-content: space-between;
+    }
+    .portfolio-container{
+      display: block;
+      align-items: center;
+      padding:0 45px;
+    }
+    .background-wrap{
+      justify-content: space-around;
+    }
+    .background-item{
+      margin-bottom: 20px;
+    }
+    .header-title{
+      font-size: 3rem;
+    }
+    .header-discription{
+      font-size: 1.3rem;
+    }
+  }
+
+@media (max-width: 992px) {
+html {
+font-size: 14px;
+}
+.container{
+  max-width: 750px;
+}
+.awesome-wrap{
+  justify-content: center;
+}
+.portfolio-container{
+  display: block;
+  padding:0 120px;
+}
+.footer-awesome{
+  justify-content: space-between;
+}
+
+}
+@media (max-width: 596px) {
+html {
+font-size: 12px;
+}
+.container{
+  max-width: 350px;
+}
+.footer-share{
+  display: block;
+  align-items: center;
+}
+
+        
+            

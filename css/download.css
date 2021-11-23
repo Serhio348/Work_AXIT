@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  .download{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0 100px;
+  }
+
+.download-wrap {
+    display: block;
+    
+}
+.download-title {
+    
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.88rem;
+    line-height: 2.2rem;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    
+}
+.download-discription {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.download-buttom {
+    width: 23rem;
+    background-color: #FF4343;
+    font-size: 1.5rem;
+    color:#ffffff;
+    font-family: "Raleway";
+    font-weight: 900;
+    line-height: 1.76rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0;
+    padding: 0.84em 0; 
+    cursor: pointer;
+    margin:auto;
+
+}  
